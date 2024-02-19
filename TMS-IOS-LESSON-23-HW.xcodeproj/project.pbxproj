@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045201732B7E9D0C00710121 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045201722B7E9D0C00710121 /* SearchBar.swift */; };
+		045201762B7EA50900710121 /* SearchBarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045201752B7EA50900710121 /* SearchBarDelegate.swift */; };
+		045201792B7EA6EB00710121 /* verifyUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045201782B7EA6EB00710121 /* verifyUrl.swift */; };
+		0452017B2B7EAB3700710121 /* showAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0452017A2B7EAB3700710121 /* showAlert.swift */; };
+		047D694E2B8202E400539AF5 /* BookmarksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D694D2B8202E400539AF5 /* BookmarksModel.swift */; };
 		04E088332B7E6DF1006AD01C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E088322B7E6DF1006AD01C /* AppDelegate.swift */; };
 		04E088352B7E6DF1006AD01C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E088342B7E6DF1006AD01C /* SceneDelegate.swift */; };
-		04E088372B7E6DF1006AD01C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E088362B7E6DF1006AD01C /* ViewController.swift */; };
-		04E0883A2B7E6DF1006AD01C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E088382B7E6DF1006AD01C /* Main.storyboard */; };
+		04E088372B7E6DF1006AD01C /* BrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E088362B7E6DF1006AD01C /* BrowserController.swift */; };
 		04E0883C2B7E6DF3006AD01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E0883B2B7E6DF3006AD01C /* Assets.xcassets */; };
 		04E0883F2B7E6DF3006AD01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E0883D2B7E6DF3006AD01C /* LaunchScreen.storyboard */; };
+		04E088472B7E70EE006AD01C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E088462B7E70EE006AD01C /* TabBarController.swift */; };
+		04E088492B7E71CC006AD01C /* BookmarksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E088482B7E71CC006AD01C /* BookmarksController.swift */; };
+		04E0886C2B7E7BCD006AD01C /* BrowserController+extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0886B2B7E7BCD006AD01C /* BrowserController+extenstion.swift */; };
+		04FC63DB2B80CE90000F3842 /* BookmarksController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FC63DA2B80CE90000F3842 /* BookmarksController+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045201722B7E9D0C00710121 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		045201752B7EA50900710121 /* SearchBarDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarDelegate.swift; sourceTree = "<group>"; };
+		045201782B7EA6EB00710121 /* verifyUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyUrl.swift; sourceTree = "<group>"; };
+		0452017A2B7EAB3700710121 /* showAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showAlert.swift; sourceTree = "<group>"; };
+		047D694D2B8202E400539AF5 /* BookmarksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksModel.swift; sourceTree = "<group>"; };
 		04E0882F2B7E6DF1006AD01C /* TMS-IOS-LESSON-23-HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMS-IOS-LESSON-23-HW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E088322B7E6DF1006AD01C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E088342B7E6DF1006AD01C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04E088362B7E6DF1006AD01C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04E088392B7E6DF1006AD01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E088362B7E6DF1006AD01C /* BrowserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserController.swift; sourceTree = "<group>"; };
 		04E0883B2B7E6DF3006AD01C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E0883E2B7E6DF3006AD01C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E088402B7E6DF3006AD01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E088462B7E70EE006AD01C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		04E088482B7E71CC006AD01C /* BookmarksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksController.swift; sourceTree = "<group>"; };
+		04E0886B2B7E7BCD006AD01C /* BrowserController+extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BrowserController+extenstion.swift"; sourceTree = "<group>"; };
+		04FC63DA2B80CE90000F3842 /* BookmarksController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BookmarksController+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0452016F2B7E9CB000710121 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				04E088462B7E70EE006AD01C /* TabBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		045201702B7E9CC000710121 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E088362B7E6DF1006AD01C /* BrowserController.swift */,
+				04E088482B7E71CC006AD01C /* BookmarksController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		045201712B7E9CF300710121 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				045201722B7E9D0C00710121 /* SearchBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		045201742B7EA4F300710121 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				045201752B7EA50900710121 /* SearchBarDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		045201772B7EA6D900710121 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				045201782B7EA6EB00710121 /* verifyUrl.swift */,
+				0452017A2B7EAB3700710121 /* showAlert.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		047D694F2B82131900539AF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				047D694D2B8202E400539AF5 /* BookmarksModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		04E088262B7E6DF1006AD01C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +122,29 @@
 		04E088312B7E6DF1006AD01C /* TMS-IOS-LESSON-23-HW */ = {
 			isa = PBXGroup;
 			children = (
+				047D694F2B82131900539AF5 /* Models */,
+				045201772B7EA6D900710121 /* Utils */,
+				045201742B7EA4F300710121 /* Protocols */,
+				045201712B7E9CF300710121 /* Components */,
+				045201702B7E9CC000710121 /* ViewControllers */,
+				0452016F2B7E9CB000710121 /* Navigation */,
+				04E0886A2B7E7BA5006AD01C /* Extensions */,
 				04E088322B7E6DF1006AD01C /* AppDelegate.swift */,
 				04E088342B7E6DF1006AD01C /* SceneDelegate.swift */,
-				04E088362B7E6DF1006AD01C /* ViewController.swift */,
-				04E088382B7E6DF1006AD01C /* Main.storyboard */,
 				04E0883B2B7E6DF3006AD01C /* Assets.xcassets */,
 				04E0883D2B7E6DF3006AD01C /* LaunchScreen.storyboard */,
 				04E088402B7E6DF3006AD01C /* Info.plist */,
 			);
 			path = "TMS-IOS-LESSON-23-HW";
+			sourceTree = "<group>";
+		};
+		04E0886A2B7E7BA5006AD01C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04E0886B2B7E7BCD006AD01C /* BrowserController+extenstion.swift */,
+				04FC63DA2B80CE90000F3842 /* BookmarksController+extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +207,6 @@
 			files = (
 				04E0883F2B7E6DF3006AD01C /* LaunchScreen.storyboard in Resources */,
 				04E0883C2B7E6DF3006AD01C /* Assets.xcassets in Resources */,
-				04E0883A2B7E6DF1006AD01C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +217,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E088372B7E6DF1006AD01C /* ViewController.swift in Sources */,
+				045201762B7EA50900710121 /* SearchBarDelegate.swift in Sources */,
+				047D694E2B8202E400539AF5 /* BookmarksModel.swift in Sources */,
+				045201732B7E9D0C00710121 /* SearchBar.swift in Sources */,
+				045201792B7EA6EB00710121 /* verifyUrl.swift in Sources */,
+				0452017B2B7EAB3700710121 /* showAlert.swift in Sources */,
+				04E088472B7E70EE006AD01C /* TabBarController.swift in Sources */,
+				04E088372B7E6DF1006AD01C /* BrowserController.swift in Sources */,
 				04E088332B7E6DF1006AD01C /* AppDelegate.swift in Sources */,
 				04E088352B7E6DF1006AD01C /* SceneDelegate.swift in Sources */,
+				04E088492B7E71CC006AD01C /* BookmarksController.swift in Sources */,
+				04FC63DB2B80CE90000F3842 /* BookmarksController+extension.swift in Sources */,
+				04E0886C2B7E7BCD006AD01C /* BrowserController+extenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04E088382B7E6DF1006AD01C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E088392B7E6DF1006AD01C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04E0883D2B7E6DF3006AD01C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +377,7 @@
 				INFOPLIST_FILE = "TMS-IOS-LESSON-23-HW/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +385,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "anton.kurdo.TMS-IOS-LESSON-23-HW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +406,7 @@
 				INFOPLIST_FILE = "TMS-IOS-LESSON-23-HW/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +414,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "anton.kurdo.TMS-IOS-LESSON-23-HW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
